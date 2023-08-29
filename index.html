@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- background container -->
+
+    <div class="flex items-center justify-center bg-zinc-700 h-screen">
+      <!-- card zinc-->
+      <div
+        class="bg-zinc-800 p-5 w-full rounded-2xl md:rounded-r-none md:p-3 md:max-w-xl"
+      >
+        <!-- flex container -->
+        <div
+          class="flex flex-col md:flex-row md:items-center rounded-l-xl gap-2"
+        >
+          <!-- image -->
+
+          <img
+            src="images/image.jpg"
+            alt="image"
+            class="object-fit rounded-xl pt-2 h-80 md:h-80 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200"
+          />
+
+          <!-- container content -->
+
+          <div class="mx-auto">
+            <!-- title  -->
+            <h2
+              class="font-serif max-w-xs text-lg text-center uppercase text-green-500 md:text-left pb-3"
+            >
+              Erhalten Sie Diät- und Fitnesstipps per E-Mail
+            </h2>
+            <!-- paragraph -->
+            <p
+              class="text-zinc-200 max-w-xs leading-5 tracking-wide text-center md:text-left pb-3"
+            >
+              Viele Diäten – von Atkins über Low Carb bis hin zur
+              steinzeitlichen Paleo-Diät – versprechen in kurzer Zeit eine
+              schnelle Gewichtsabnahme. Eine gesunde Ernährung und viel Bewegung
+              hilft, langfristig abzunehmen.
+            </p>
+
+            <input
+              class="p-2 w-full border border-none placeholder:italic placeholder:text-slate-400 rounded-md text-sm mb-3"
+              type="email"
+              placeholder="Enter your email address"
+            />
+            <button
+              class="p-2 text-white border border-none rounded-md w-full text-sm bg-green-500 hover:bg-green-700"
+            >
+              Subcribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
